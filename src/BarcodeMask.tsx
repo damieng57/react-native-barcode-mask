@@ -177,7 +177,7 @@ const runTiming: RunTimingFn = (
   const timingConfig: Animated.TimingConfig = {
     duration,
     toValue: new Value(destination),
-    easing: Easing.inOut(Easing.ease),
+    easing: Easing.inOut(Easing.ease) as any,
   };
 
   return block([

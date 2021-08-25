@@ -52,7 +52,7 @@ export default (
     [state.height, state.width, state.x, state.y]
   );
 
-  let timeoutId = 0;
+  let timeoutId;
   let processingReadBarcode: (data: string) => void;
 
   if (
