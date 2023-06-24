@@ -1,9 +1,9 @@
-# @nartc/react-native-barcode-mask
+# react-native-barcode-mask
 
 ![travis](https://badgen.net/travis/nartc/react-native-barcode-mask)
-![bundlephobia](https://badgen.net/bundlephobia/minzip/@nartc/react-native-barcode-mask)
-![downloads](https://badgen.net/npm/dt/@nartc/react-native-barcode-mask)
-![npm](https://badgen.net/npm/v/@nartc/react-native-barcode-mask)
+![bundlephobia](https://badgen.net/bundlephobia/minzip/react-native-barcode-mask)
+![downloads](https://badgen.net/npm/dt/react-native-barcode-mask)
+![npm](https://badgen.net/npm/v/react-native-barcode-mask)
 ![license](https://badgen.net/github/license/nartc/react-native-barcode-mask)
 [![Known Vulnerabilities](https://snyk.io/test/github/nartc/react-native-barcode-mask/badge.svg?targetFile=package.json)](https://snyk.io/test/github/nartc/react-native-barcode-mask?targetFile=package.json)
 
@@ -12,22 +12,22 @@
 
 ### Acknowledgement
 
-I want to acknowledge the current [react-native-barcode-mask](https://github.com/shahnawaz/react-native-barcode-mask) library. Most of `@nartc/react-native-barcode-mask` is "cloned" from the original but rewritten with [React Hooks](https://reactjs.org/docs/hooks-intro.html) and [Reanimated](https://github.com/software-mansion/react-native-reanimated)
+I want to acknowledge the current [react-native-barcode-mask](https://github.com/shahnawaz/react-native-barcode-mask) library. Most of `react-native-barcode-mask` is "cloned" from the original but rewritten with [React Hooks](https://reactjs.org/docs/hooks-intro.html) and [Reanimated](https://github.com/software-mansion/react-native-reanimated)
 
 ### Installation
 
 ```
-npm install @nartc/react-native-barcode-mask
+npm install react-native-barcode-mask
 ```
 
 ```
-yarn add @nartc/react-native-barcode-mask
+yarn add react-native-barcode-mask
 ```
 
 ### Usage
 
-1. Import `BarcodeMask` from `@nartc/react-native-barcode-mask`
-2. Use `<BarcodeMask />` as a `child` of `<RNCamera>` from `react-native-camera`
+1. Import `BarcodeMask` from `react-native-barcode-mask`
+2. Use `<BarcodeMask />` as a `child` of `<RNCamera>` from `fleetback-react-native-camera`
 
 ```typescript jsx
 <RNCamera {...props}>
@@ -113,7 +113,7 @@ const {
 />
 ```
 
-**NOTE: I noticed that this trick "kind of stopped" working since couple of the latest issue ago. Haven't looked into the commit log of `react-native-camera` but `barcodeRead` is returned for the sake of `barcodeRead`, frequency of scanning barcode is handled internally now.**
+**NOTE: I noticed that this trick "kind of stopped" working since couple of the latest issue ago. Haven't looked into the commit log of `fleetback-react-native-camera` but `barcodeRead` is returned for the sake of `barcodeRead`, frequency of scanning barcode is handled internally now.**
 
 2. `onBarcodeRead`: This is a handler that the hook returns so you can pass to `onBarCodeRead` prop on `RNCamera`
 3. `onBarcodeFinderLayoutChange`: This is a handler that the hook returns so you can pass to `onLayoutChange` prop on `BarcodeMask`

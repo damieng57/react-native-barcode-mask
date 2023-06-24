@@ -1,7 +1,7 @@
 import { View, StyleSheet, Platform, PixelRatio } from 'react-native';
 import React, { memo, PureComponent, useState, useReducer, useCallback } from 'react';
 import Animated, { Easing } from 'react-native-reanimated';
-import { RNCamera } from 'react-native-camera';
+import { RNCamera } from 'fleetback-react-native-camera';
 
 function _extends() {
   _extends = Object.assign || function (target) {

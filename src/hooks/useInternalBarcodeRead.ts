@@ -1,6 +1,6 @@
 import { useCallback } from 'react';
 import { PixelRatio, Platform } from 'react-native';
-import { BarCodeType, Point, RNCamera, Size } from 'react-native-camera';
+import { BarCodeType, Point, RNCamera, Size } from 'fleetback-react-native-camera';
 
 const useInternalBarcodeReadIOS = (
   barcodeRead: boolean,

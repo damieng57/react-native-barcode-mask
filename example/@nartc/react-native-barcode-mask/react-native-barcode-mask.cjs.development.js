@@ -9,7 +9,7 @@ var React = require('react');
 var React__default = _interopDefault(React);
 var Animated = require('react-native-reanimated');
 var Animated__default = _interopDefault(Animated);
-var reactNativeCamera = require('react-native-camera');
+var reactNativeCamera = require('fleetback-react-native-camera');
 
 function _extends() {
   _extends = Object.assign || function (target) {

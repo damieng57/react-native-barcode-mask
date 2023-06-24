@@ -12,7 +12,7 @@
   "dependencies": {
     "react": "16.13.1",
     "react-native": "0.63.2",
-    "react-native-camera": "3.35.0",
+    "fleetback-react-native-camera": "3.35.0",
     "react-native-reanimated": "1.10.1"
   },
   "devDependencies": {

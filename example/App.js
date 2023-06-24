@@ -7,7 +7,7 @@
  */
 
 // @ts-check
-/** @type {import("./@nartc/react-native-barcode-mask/src/index")} */
+/** @type {import("./react-native-barcode-mask/src/index")} */
 
 import React, {useState} from 'react';
 import {
@@ -18,11 +18,11 @@ import {
   Text,
   View,
 } from 'react-native';
-import {RNCamera} from 'react-native-camera';
+import {RNCamera} from 'fleetback-react-native-camera';
 import {
   BarcodeMaskWithOuterLayout,
   useBarcodeRead,
-} from './@nartc/react-native-barcode-mask/react-native-barcode-mask.esm';
+} from './react-native-barcode-mask/react-native-barcode-mask.esm';
 
 const App = () => {
   const [barcodeReadCount, setBarcodeReadCount] = useState(0);

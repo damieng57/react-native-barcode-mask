@@ -1,4 +1,4 @@
-import { BarCodeType, Point, Size } from 'react-native-camera';
+import { BarCodeType, Point, Size } from 'fleetback-react-native-camera';
 
 export interface CustomBarcodeRead {
   beforeScan: () => void;

@@ -1,4 +1,4 @@
-import { Point, Size } from 'react-native-camera';
+import { Point, Size } from 'fleetback-react-native-camera';
 declare const _default: (barcodeRead: boolean, isFocused: boolean, finderX: number, finderY: number, finderWidth: number, finderHeight: number, processingReadBarcode: (data: string) => void) => (event: {
     data: string;
     bounds: {

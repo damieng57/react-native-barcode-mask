@@ -5,10 +5,10 @@ declare const _default: (isFocused: boolean, dataProcessor: (data: string) => st
         bounds: {
             width: number;
             height: number;
-            origin: import("react-native-camera").Point<string>[];
+            origin: import("fleetback-react-native-camera").Point<string>[];
         } | {
-            origin: import("react-native-camera").Point<string>;
-            size: import("react-native-camera").Size<string>;
+            origin: import("fleetback-react-native-camera").Point<string>;
+            size: import("fleetback-react-native-camera").Size<string>;
         };
         type: "aztec" | "code128" | "code39" | "code39mod43" | "code93" | "ean13" | "ean8" | "pdf417" | "qr" | "upc_e" | "interleaved2of5" | "itf14" | "datamatrix";
     }) => void;
